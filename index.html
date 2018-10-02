@@ -5,46 +5,45 @@
     <title>Lab Four </title>
   </head> 
   <body>
-  <form method = "POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-  <h1> <b> Volunteer Form </b> </h1>
-<fieldset>
-<legend> My Information</legend> 
-<p><label>First Name: <input maxlength="25" type="text" name="first_name_field" placeholder="First name"></label></p>
-<p><label>Last name: <input maxlength="25" type="text" name="lirst_name_field" placeholder="Last name"></label></p>
-<p><label>Phone Number: <input maxlength="25" type="text" name="phone_field" placeholder="Phone Number"></label></p>
-<p><label>Email Address <input maxlength="35" type="email" name="email_field" placeholder="Email Address"></label></p>
-<p>Gender :
-  <lable> Male : <input type="radio" name="gender_field" value="Male"></lable>
-  <lable> Female : <input type="radio" name="gender_field" value="Male"></lable>
-</p> Age
-<select name="age_field">
-   <option>under 18</option>
-   <option>18-24</option>
-   <option>25-34</option>
-   <option>35-44</option>
-   <option>45-54</option>
-   <option>55-64</option>
-   <option>65 and over</option>
-</select>
-</fieldset>
-<fieldset>
-  <legend>My Availability</legend>
-  <p>Dasy Available: </p>
-  <p> 
-    <lable> <input type="checkbox" name="available_field[]" value="Sunday"> Sunday</lable>
-  </p>
-  <p> <label><input type = "checkbox" name = "available_field[]" value = "Monday">Monday</label></p>
-   <p><label><input type = "checkbox" name = "available_field[]" value = "Tuesday">Tuesday</label></p>
-      <p><label><input type = "checkbox" name = "available_field[]" value = "Wednesday">Wednesday</label></p>
-      <p> <label><input type = "checkbox" name = "available_field[]" value = "Thursday">Thursday</label></p>
-      <p> <label><input type = "checkbox" name = "available_field[]" value = "Friday">Friday</label></p>
-      <p> <label><input type = "checkbox" name = "available_field[]" value = "Saturday">Saturday</label></p>
-      <p> Any comments?</p>
-      <textarea maxlength="1100" cols="60" rows="15" name="comments_field" placeholder=" please leave a comment..." ></textarea>
-      <input type="hidden" name="hidden_field" value="Mohammad Salahy">
+    <form method = "POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+    <h1> <b> Volunteer Form </b> </h1>
+  <fieldset>
+      <legend> My Information</legend> 
+    <p><label>First Name: <input maxlength="25" type="text" name="first_name_field" placeholder="First name"></label></p>
+    <p><label>Last name: <input maxlength="25" type="text" name="lirst_name_field" placeholder="Last name"></label></p>
+    <p><label>Phone Number: <input maxlength="25" type="text" name="phone_field" placeholder="Phone Number"></label></p>
+    <p><label>Email Address <input maxlength="35" type="email" name="email_field" placeholder="Email Address"></label></p>
+    <p>Gender: <lable> Male : <input type="radio" name="gender_field" value="Male"></lable>
+      <lable> Female : <input type="radio" name="gender_field" value="Male"></lable>
+    </p> Age
+    <select name="age_field">
+       <option>under 18</option>
+       <option>18-24</option>
+       <option>25-34</option>
+       <option>35-44</option>
+       <option>45-54</option>
+       <option>55-64</option>
+       <option>65 and over</option>
+    </select>
     </fieldset>
-    <input type="submit" name="Push Me">
-  <input type="reset" name="Reset">
+    <fieldset>
+      <legend>My Availability</legend>
+      <p>Dasy Available: </p>
+      <p> 
+        <lable> <input type="checkbox" name="available_field[]" value="Sunday"> Sunday</lable>
+      </p>
+      <p> <label><input type = "checkbox" name = "available_field[]" value = "Monday">Monday</label></p>
+       <p><label><input type = "checkbox" name = "available_field[]" value = "Tuesday">Tuesday</label></p>
+          <p><label><input type = "checkbox" name = "available_field[]" value = "Wednesday">Wednesday</label></p>
+          <p> <label><input type = "checkbox" name = "available_field[]" value = "Thursday">Thursday</label></p>
+          <p> <label><input type = "checkbox" name = "available_field[]" value = "Friday">Friday</label></p>
+          <p> <label><input type = "checkbox" name = "available_field[]" value = "Saturday">Saturday</label></p>
+          <p> Any comments?</p>
+          <textarea maxlength="1100" cols="60" rows="15" name="comments_field" placeholder=" please leave a comment..." ></textarea>
+          <input type="hidden" name="hidden_field" value="Mohammad Salahy">
+        </fieldset>
+        <input type="submit" name="Push Me">
+      <input type="reset" name="Reset">
 </form>
 </body>
 </html>
