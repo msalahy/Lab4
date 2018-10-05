@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=“en”>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Lab Four </title>
@@ -13,11 +13,20 @@
         <p><label>Last name: <input maxlength="25" type="text" name="last_name_field" placeholder="Last name"></label></p>
         <p><label>Phone Number: <input maxlength="25" type="text" name="phone_field" placeholder="Phone Number"></label></p>
         <p><label>Email Address <input maxlength="35" type="email" name="email_field" placeholder="Email Address"></label></p>
-        <p>Gender: <lable> Male : <input type="radio" name="gender_field" value="Male">
-        </lable>
-          <lable> Female : <input type="radio" name="gender_field" value="Female">
-          </lable>
-        </p> Age
+        <p> Gender:</p>
+     
+      <p>
+        <label> Male:
+          <input type="radio" name= "gender_field" value="Male">
+        </label>
+      </p>
+      <p>
+        <label> Female:
+          <input type="radio" name="gender_field" value="Female">
+        </label>
+      </p>
+    </fieldset>
+        <p> Age </p>
         <select name="age_field">
            <option>under 18</option>
            <option>18-24</option>
@@ -27,13 +36,12 @@
            <option>55-64</option>
            <option>65 and over</option>
         </select>
-      </fieldset>
       <fieldset>
         <legend>My Availability</legend>
          <p>Dasy Available:</p>
         <p>
-          <lable> <input type="checkbox" name="available_field[]" value="Sunday"> Sunday
-          </lable>
+          <label> <input type="checkbox" name="available_field[]" value="Sunday"> Sunday
+          </label>
         </p>
         <p><label><input type = "checkbox" name = "available_field[]" value = "Monday">Monday</label></p>
         <p><label><input type = "checkbox" name = "available_field[]" value = "Tuesday">Tuesday</label></p>
